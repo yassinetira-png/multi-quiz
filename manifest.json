@@ -1,11 +1,17 @@
 {
-  "background_color": "#f3e2ac",
-  "dir": "ltr",
-  "display": "standalone",
-  "name": "Multi Quiz",
-  "orientation": "any",
-  "scope": "/",
+  "name": "MultiQuiz",
   "short_name": "MultiQuiz",
-  "start_url": "/",
-  "theme_color": "#ffffff"
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f4f1ea",
+  "theme_color": "#c45c26",
+  "description": "Une application pour apprendre et réviser les tables de multiplication.",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
 }
